@@ -1,0 +1,57 @@
+:root {
+    --sidebar-products-background-color: #252836;
+    --sidebar-categories-produscts-background-color: #1F1D2B;
+    --logo-placeholder-font-color: #618DFF;
+    --navbar-background: #222331;
+    --navbar-font-color: #FFFFFF;
+    --main-font-color: #FFFFFF;
+    --input-shadow-color: #2D303E;
+    --input-background-color: #2D303E;
+    --input-font-color: #FFFFFF;
+    --sidebar-products-details-font-color: #D7D7D7;
+    --total-font-color: #000000;
+    --category-active-border-color: #2562FF;
+    --category-active-shadow-color: #FF6C6C2B;
+    --categories-shadow-color: #0000002B;
+    --categories-font-color: #8f8f8f;
+    --price-font-color: #618DFF;
+    --total-btn-font-color: #FFFFFF;
+    --total-btn-background-color: #000000;
+    --modal-main-font-color: #FFFFFF;
+    --login-background-color: #252836;
+    --discount-background-color: #27314A;
+    --abord-border-font: #FFFFFF;
+    --abord-background-color: #FF0000;
+}
+
+
+/* :root {
+    --light-theme-background: #222331;
+    --light-theme-main-font: #618DFF;
+    --light-theme-border-card: #00000040;
+    --light-theme-second-font: #292929;
+    --light-theme-placeholder-font: #2562FF;
+    --light-theme-product-font: #FFFFFF;
+    --light-theme-category-border: #4D4D4D40;
+    --light-theme-category-font: #646464;
+    --light-theme-dicount-background: #27314A;
+    --light-theme-product-size-color-price-background: #3D3A3A;
+    --light-theme-login-background: #F5F6FA;
+    --light-theme-categories-background: #1F1D2B;
+    --light-theme-minus-background-font: #FFFFFF;
+    --light-theme-abord-border-font: #FF0000;
+    --light-theme-categories-button-font: #FFFFFF;
+    --light-theme-categories-button-hover-font: #FFFFFF;
+} */
+
+.all-buttons .sub-cat-menu .sub-cat-menu-btn {
+    color: #FFFFFF !important;
+}
+
+.select-branch .dropdown {
+    background: #2d303e 0% 0% no-repeat padding-box;
+}
+
+.promo .promo-head {
+    color: var(--input-font-color);
+}

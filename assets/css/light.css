@@ -1,0 +1,59 @@
+          :root {
+             --sidebar-products-background-color: #FFFFFF;
+             --sidebar-categories-produscts-background-color: #FFFFFF;
+             --logo-placeholder-font-color: #618DFF;
+             --navbar-background: #FFFFFF;
+             --navbar-font-color: #1F1D2B;
+             --main-font-color: #000000;
+             --input-background-color: #FFFFFF;
+             --input-shadow-color: #00000029;
+             --input-font-color: #000000;
+             --sidebar-products-details-font-color: #B1B1B1;
+             --total-font-color: #000000;
+             --category-active-border-color: #2562FF;
+             --category-active-shadow-color: #FF6C6C2B;
+             --categories-shadow-color: #0000002B;
+             --products-shadow-color: #00000029;
+             --categories-font-color: #8f8f8f;
+             --price-font-color: #2562FF;
+             --total-btn-font-color: #FFFFFF;
+             --total-btn-background-color: #000000;
+             --modal-main-font-color: #3D3A3A;
+             --login-background-color: #F5F6FA;
+             --discount-background-color: #27314A;
+         }
+         /* :root {
+    --light-theme-background: #FFFFFF;
+    --light-theme-main-font: #618DFF;
+    --light-theme-border-card: #00000040;
+    --light-theme-second-font: #292929;
+    --light-theme-placeholder-font: #2562FF;
+    --light-theme-product-font: #000000;
+    --light-theme-checkbox-font: #FFFFFF;
+    --light-theme-category-border: #4D4D4D40;
+    --light-theme-category-font: #646464;
+    --light-theme-dicount-background: #27314A;
+    --light-theme-product-size-color-price-background: #3D3A3A;
+    --light-theme-login-background: : #F5F6FA;
+    --light-theme-categories-background: #FFFFFF;
+    --light-theme-minus-font: #FFFFFF;
+    --light-theme-abord-border-font: #618DFF;
+    --light-theme-categories-button-font: #618DFF;
+    --light-theme-categories-button-hover-font: #FFFFFF;
+} */
+         
+         .product {
+             border-bottom: 1px solid var(--logo-placeholder-font-color);
+             border-top: 1px solid var(--logo-placeholder-font-color);
+             margin-left: 0;
+             border-radius: 0;
+         }
+         
+         .product:last-child {
+             border-bottom: none;
+         }
+         
+         .product .quan-salary .quant .minus,
+         .products-size-color-price .quan-salary-clothes .minus-all-quan {
+             border: 1px solid var(--logo-placeholder-font-color);
+         }
